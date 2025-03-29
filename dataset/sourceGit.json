@@ -1,0 +1,23 @@
+{
+	"name": "sourceGit",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "httpGit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "liji-saji/Dataset/refs/heads/main/Fact_Sales_2.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

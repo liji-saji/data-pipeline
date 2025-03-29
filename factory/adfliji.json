@@ -1,0 +1,9 @@
+{
+	"name": "adfliji",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ee5a74ce-d2c4-416f-821d-0685e7305e9c",
+		"tenantId": "65b52940-f4b6-41bd-833d-3033ecbcf6e1"
+	}
+}
